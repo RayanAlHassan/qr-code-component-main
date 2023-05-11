@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    background-image: url(./images/favicon-32x32.png);
+    background-size: cover; /* Resize the image to cover the entire viewport */
+  }
+  
+  main {
+    background-color: rgb(14, 201, 238);
+    padding: 20px;
+    margin: 0 auto;
+    max-width: 800px;
+  }
+  .cont{
+    width: 300px;
+    padding: 10px;
+    margin: 0px auto;
+    border-radius: 23px;
+    background-color: white;
+    text-align: center;
+}
+.cont img{
+    display: block; /* Set the image to display as a block element */
+    margin: 0 auto;
+    border-radius: 23px;
+    width: 184px;
+}
+.cont h1{
+    font-size: 18px;
+}
+.cont p{
+    opacity: 0.5;
+    font-size: 15px;
+}
+footer{
+    padding: 10px;
+}
